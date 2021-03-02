@@ -1,0 +1,198 @@
+.logo{
+    width: 80px;
+    color: #f82249;
+}
+.navbar-toggler span{
+display: block;
+background-color: #000;
+height: 3px;
+width: 25px;
+margin-top: 7px;
+margin-bottom: 4px;
+-webkit-transform: rotate(0deg);
+transform: rotate(0deg);
+left: 0;
+opacity: 1;
+}
+.nav-link{
+    color:#000;
+}
+.btn-custom:hover{
+    background: #ffffff;
+    color: #6820c7;
+}
+.btn-custom{
+    background: #ffffff;
+    color: #6820c7;
+    border: 2px solid #4922f8;
+}
+.btn2-custom{
+        background: #f82249;
+        color: #ffffff;
+        border: 2px solid #f82249;
+}
+.mini-btn{
+    color: #975555;
+    background-color: antiquewhite;
+    padding-left: 1rem;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+    width: 30%;
+}
+.mini-btn2{
+    color: #88edff  ;
+    background-color: #8894ff;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+    width: 30%;
+}
+.flex{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background: url(image/microbiology-163521_1280.jpg);
+    padding-top: 8rem;
+    padding: 20px;
+}
+.image-left{
+    padding-bottom: 10rem;
+    color: #ffffff;
+    padding-top: 10rem;
+}
+.image-left h1{
+    font-size: 3rem;
+}
+.image-left h3{
+    padding-top: 2rem;
+}
+.register-form{
+    
+    text-align: center;
+    background: #ffffff;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    
+    border-radius: 5px;
+    padding-top: 2rem;
+    
+}
+.input-field{
+    width: 300px;
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+.image-register{
+    height: 300px;
+    width: 500px;
+    margin-top: 30px;
+}
+.input-field{
+    width: 60%;
+    margin-top: 1.7rem;
+    
+}
+.sign-button{
+    background: #4922f8;
+    color: #ffffff;
+}
+.happy{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 1.5rem;
+    padding-bottom: 5rem;
+}
+
+.image-life{
+    width: 25%;
+}
+.image-real{
+    width: 25%;
+}
+.image-learn{
+    width: 25%;
+}
+#explore{
+    padding-top: 2rem;
+    font-size: 0.9rem;
+}
+.courses{
+    color: blue;
+}
+.fa h5{
+    padding-top: 1rem; 
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.fb h5{
+    padding-top: 1rem;
+}
+.image-xamarin{
+    width: 100%;
+}
+.bg-blue{
+    background: #4922f8;
+    margin-top: 30px;
+    padding: 70px 80px 70px 90px;
+}
+.will{
+    
+    border-radius: 0.9rem;
+}
+
+.hire{
+    padding-top: 6rem;
+    
+    
+}
+.image-fluid{
+    width: 40%;
+
+}
+.btn3{
+    background: rgb(255, 95, 3);
+    color: #ffffff;
+    margin-bottom: 3rem;
+}
+.Categories{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-size: 0.8rem;
+}
+.get{
+    padding-bottom: 5rem;
+}
+.food p{
+    font-size: 0.8;
+}
+.fa-facebook{
+    color: #4922f8;
+    width: 30px;
+}
+.fa-twitter{
+    color: #4922f8;
+}
+.fa-instagram{
+    color: #f82249;
+}
+.imagez{
+    padding-top: 2rem;
+}
+.imagez img{
+    width: 50%;
+    padding-top: 0.4rem;
+    padding-bottom: 1rem;
+}
+.imagez h6{
+    font-size: 0.8rem;
+}
+.credit{
+   text-align: center;
+    padding-top: 3.5rem;
+    font-size: 0.9rem;
+}
