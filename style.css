@@ -37,14 +37,14 @@ opacity: 1;
     padding-left: 1rem;
     border-radius: 2rem;
     font-size: 0.9rem;
-    width: 30%;
+    width: 40%;
 }
 .mini-btn2{
     color: #88edff  ;
     background-color: #8894ff;
     border-radius: 2rem;
     font-size: 0.9rem;
-    width: 30%;
+    width: 40%;
 }
 .flex{
     justify-content: space-evenly;
@@ -164,8 +164,8 @@ opacity: 1;
     padding-bottom: 2rem;
     font-size: 0.8rem;
 }
-.get{
-    padding-bottom: 5rem;
+.get img{
+    width: 100%;
 }
 .food p{
     font-size: 0.8;
