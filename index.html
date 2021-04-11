@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ufinix</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&family=RocknRoll+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="/owlcarousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar shadow navbar-expand-md fixed-top bg-white">
+    <nav class="container-fluid navbar shadow navbar-expand-md fixed-top bg-white">
         <a href="index.html"><img src="image/logo.a8647160.png" class="logo"></a>
         
         <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#menu"
@@ -20,36 +26,60 @@
           <span></span>
         </button>
         <div class="navbar-collapse collapse" id="menu">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item mr-3"><a href="#" class="nav-link active">All courses</a></li>
-                <li class="nav-item mr-3"><a href="#" class="nav-link">Code Academy</a></li>
-                <li class="nav-item mr-3"><a href="#" class="nav-link">Testimonies</a></li>
-                <li class="nav-item mr-3"><a href="#" class="nav-link btn btn-custom">Log in</a></li>
-                <li class="nav-item mr-3"><a href="#" class="nav-link btn2 btn2-custom">Sign up</a></li>
+            <ul class="navbar-nav">
+                <span class="span"></span>
+                <span class="span"></span>
+                <li class="nav-item "><a href="#explore" class="nav-link ">All course</a></li>
+                <li class="nav-item "><a href="#" class="nav-link">Code Academy</a></li>
+                <li class="nav-item "><a href="#testimonials" class="nav-link">Testimonies</a></li>
+                <li class="nav-item "><a href="#about" class="nav-link">About us</a></li>
+                <span class="span"></span>
+                <li class="nav-item "><a href="#" class="nav-link btn-custom btn-hv col-md-12 btn-rounded mx-2 btn-sm ">Log in</a> </li>
+                
+                <li class="nav-item "><a href=".register-form" class="nav-link btn2-custom col-md-12 btn-rounded  mx-2 btn-sm "> Sign up</a></li>
+
             </ul>
         </div>
      
     </nav>
     <section id="register">
-        <div class="flex row">
-            <div class="image-left col-md-7">
-               <h1>Grow In-Demand Skills using </h1>
-               <h1>On-Demand Courses</h1>
-               <h3>Learn from industry leaders with over 10 years experience working in the tech space.</h3>
-               <div class="btn mini-btn">MOBILE APP DEVELOPMENT</div> <div class="btn mini-btn2">WEB DEVELOPMENT</div>
-            </div>
-            
-            <div class="register-form col-md-5">
-                <h4>Get started easily</h4>
-                <form>
-                    <input type="text" class="input-field" placeholder="name">
-                    <input type="email" class="input-field" placeholder="Email">
-                    <input type="password" class="input-field" placeholder="Password">
-                    <p>we'll never share info with anyone else</p>
-                    <p>
-                        <input type="submit" value="Register" class="sign-button">
-                    </p>
-                </form>
+        <div class="container-fluid">
+            <div class="flex row">
+                <div class="image-left col-md-6">
+                   <h1>Grow In-Demand Skills using On-Demand Courses </h1>
+                   
+                   <h3>Learn from industry leaders with over 10 years experience working in the tech space.</h3>
+                   <button class=" btn btn-rounded pt-2 pr-4 pl-4 pb-2 mini-btn">MOBILE APP DEVELOPMENT</button> <button class=" btn-primary btn-lg mini-btn2">WEB DEVELOPMENT</button>
+
+                  <!--
+                    <div>
+                        <button type="button" class="bb">MOBILE APP DEVELOPMENT</button>  <button type="button" class="bb">WEB DEVELOPMENT</button>
+                   </div>
+                  --> 
+                </div>
+                
+                <div class="register-form form-control:focus col-md-5">
+                    <h4>Get started easily</h4>
+                    <form>
+                        <input type="text" class="input-field" placeholder="name">
+                        <input type="email" class="input-field" placeholder="Email">
+                        <input type="password" class="input-field" placeholder="Password">
+                        <p>we'll never share info with anyone else</p>
+                        <p>
+                            <input type="submit" value="Register" class="btn btn-primary btn-sm btn-rounded"> <!-- or <a href="#" class="a">sign in</a> -->
+                        </p>
+                    </form>
+
+                </div>
+                <!-- <div class="bubbles">
+                    <img src="/image/world.png">
+                    <img src="/image/world.png">
+                    <img src="/image/world.png">
+                    <img src="/image/world.png">
+                    <img src="/image/world.png">
+                    <img src="/image/world.png">
+                    
+                </div> -->
             </div>
         </div>
     </section>
@@ -58,18 +88,18 @@
         <div class="container">
            <div class="row">
                 <div class="col-md-4 ">
-                    <img src="image/ig.png" alt="register" title="Register" class="image-life">
+                    <img src="image/ig.png" alt="register" title="Register" class="image ">
                     <h4>Lifetime Access</h4>
                     <p>Learn In-Demand Tech Skill at convenient time, 24 hours a day, 7 days a week, 
                         you have access for life</p>
                 </div>
                 <div class="col-md-4 ">
-                    <img src="image/world.png" alt="register" title="Register" class="image-real">
+                    <img src="image/world.png" alt="register" title="Register" class="image">
                     <h4>Real World Examples</h4>
                     <p>Learn programming concepts using real world examples such as an Uber clone app and an Instagram clone app</p>
                 </div>
                 <div class="col-md-4 ">
-                    <img src="image/suit case.png" alt="register" title="Register" class="image-learn">
+                    <img src="image/suit case.png" alt="register" title="Register" class="image">
                     <h4>Learn from Experts</h4>
                     <p>All our instructors have a minimum of 10 years experience working and training in the tech sector 
                         to deliver the best
@@ -81,91 +111,184 @@
     <hr>
     <section id="explore">
         <div class="container">
-            <h2 class="courses">Explore Courses</h2>
+            <div class="h3 ">Explore Courses</div>
             <div class="row">
-                <div class="card fa mr-3 col-md-5">
-                    <img src="image/xamarin-adr-img.77e6a199.png" alt="register" class="image-xamarin pt-3">
-                    <h5>Xamarin Android: Learn to Build Native Android Apps With C#</h5>
-                    
-                    <p>Become a Xamarin Pro Android Developer with C#.
-                        Includes Quiz App, Social App, Maps App, Firebase.
-                    </p>
-                    <p>Build Real World Apps</p>
-                </div>
-                
-                <div class="card fb ml-3 col-md-5">
-                    <img src="image/uber-clone.jpg" alt="register" class="image-xamarin pt-3">
-                    <h5>Xamarin Android Uber Clone App with C# and Firebase</h5>
-                    <p>Learn to build fully native and functional Android 
-                    with basic or existing C# skills.</p>
-                    <p>Android design Patterns, Controls, Firebase and more.</p>
+                <div class="col-sm-4">
+                    <div class="card my-3">
+                        <img class="card-img-top hv" src="image/xamarin-adr-img.77e6a199.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Xamarin Android Uber Clone App with C# and Firebase</h5>
+                            <p class="card-text">Learn to build fully native and functional Android 
+                                with basic or existing C# skills.</p>
+                        </div>
+                    </div>
                 </div>
 
-                
+                <div class="col-sm-4">
+                    <div class="card my-3">
+                        <img class="card-img-top" src="image/uber-clone.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Xamarin Android Uber Clone App with C# and Firebase</h5>
+                            <p class="card-text">Learn to build fully native and functional Android 
+                                with basic or existing C# skills.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card my-3">
+                        <img class="card-img-top" src="image/uber-clone.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Xamarin Android Uber Clone App with C# and Firebase</h5>
+                            <p class="card-text">Learn to build fully native and functional Android 
+                                with basic or existing C# skills.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card my-3">
+                        <img class="card-img-top" src="image/xamarin-adr-img.77e6a199.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Xamarin Android Uber Clone App with C# and Firebase</h5>
+                            <p class="card-text">Learn to build fully native and functional Android 
+                                with basic or existing C# skills.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card my-3">
+                        <img class="card-img-top" src="image/uber-clone.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Xamarin Android Uber Clone App with C# and Firebase</h5>
+                            <p class="card-text">Learn to build fully native and functional Android 
+                                with basic or existing C# skills.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card my-3">
+                        <img class="card-img-top" src="image/xamarin-adr-img.77e6a199.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Xamarin Android Uber Clone App with C# and Firebase</h5>
+                            <p class="card-text">Learn to build fully native and functional Android 
+                                with basic or existing C# skills.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
             
         </div>
         
     </section>
-    <div class="bg-blue">  
-        <div class="container will pb-3 pt-3 bg-white col-md-6">
-            <h2>William</h2>
-            <p>Here you also learn the best of writing and organising code in a modular approach. 
-                Something which is a must if you are or are planning to be a professional software
-                 developer.The cleanest code I've ever seen in such tutorials.
-            </p>               
-        </div>            
-    </div>
+   
 
-    <div class=" container">
-        <div class="row">
-            <div class="hire col-md-5">
-                <h2>Get hired fast</h2>
-                <h6>Our curriculum is designed to get you hired.</h6>
-                <h6> Classes are interactive and have a rigorous structure. </h5>
-                <h6>Plus, you'll build real products every step of the way.</h6> 
-                <a href="#" class="btn btn3">Get started for free</a> 
-            </div>                         
-           <div class="get col-md-7">
-               <img src="image/people.PNG">            
-           </div>
-        </div>   
-    </div>
+    <section id="testimonials">
+        <div class=" container ">
+            <h2>Testimonials</h2>
+            <div class=" owl-carousel owl-theme">
+                <div class="testimonials-box item">
+                    
+                    <div class="testimonial-photo">
+                        <img src="/image/team-4.jpg" alt="client client-photo"></img>                   
+                    </div>
+                    
+                    
+                    <h3> Ndy noahs</h3>
+                    <p>
+                        Here you also learn the best of writing and organising code in a modular approach. 
+                        Something which is a must if you are or are planning to be a professional software
+                         developer.The cleanest code I've ever seen in such tutorials.
+                    </p>
+                </div>
+                <div class="testimonials-box item">
+                    <div class="testimonial-photo">
+                        <img src="/image/team-4.jpg" alt="client client-photo"></img>                     
+                    </div>
+                    
+                    <h3> Victor noahs</h3>
+                    <p>
+                        Here you also learn the best of writing and organising code in a modular approach. 
+                        Something which is a must if you are or are planning to be a professional software
+                         developer.The cleanest code I've ever seen in such tutorials.
+                    </p>
+                </div>
+                <div class="testimonials-box item">
+                    <div class="testimonial-photo">
+                        <img src="/image/team-4.jpg" alt="client client-photo"></img>                     
+                    </div>
+                    
+                    <h3> Victor noahs</h3>
+                    <p>
+                        Here you also learn the best of writing and organising code in a modular approach. 
+                        Something which is a must if you are or are planning to be a professional software
+                         developer.The cleanest code I've ever seen in such tutorials.
+                    </p>
+                </div>
+            </div>          
+        </div>
+     
+    </section>
+
+   <section id="about">
+        <div class=" container">
+            <div class="row">
+                <div class="hire col-md-5">
+                    <h2>Get hired fast</h2>
+                    <h6>Our curriculum is designed to get you hired.</h6>
+                    <h6> Classes are interactive and have a rigorous structure. </h5>
+                    <h6>Plus, you'll build real products every step of the way.</h6> 
+                    <a href="#" class="btn">Get started for free</a> 
+                </div>                         
+                <div class="people-div col-md-7">
+                    <img src="image/people.PNG">            
+                </div>
+            </div>   
+        </div>
+   </section>
+   
 <hr>
       
-    <div class="flex-container container">
-        <div class="Categories row">
-            <div class="imagez col-md-3">
-                <img src="image/logo.a8647160.png">
-                <h6>support@ufinix.com</h6>
-            </div>
-            <div class="food col-md-2">
-                <h4>Categories</h4>
-                <p>All Courses</p> 
-                <p>Android App Courses</p>
-                    <p>iOS App Courses</p>
-                    <p>Business Development Courses</p>
-            </div>
-    
-            <div class="col-md-2">
-                <h5>Support</h5>
-                <p>Forum</p> 
-                    <p>FAQS</p>
-            </div>
-            <div class="col-md-2">
-                <h5>Company</h5>
-                <p>Legal</p> 
-                    <p>Privacy policy</p>
-            </div>
-            <div class="col-md-2">
-                <h5>Social</h5>
-                <i class="fa fa-facebook"></i>
-                <i class="fa fa-twitter color-blue"></i>
-                <i class="fa fa-instagram"></i> 
-            </div> 
-            
-        </div>               
-    </div>     
+    <div class="footer">
+        <div class="container">
+            <div class="categories row">
+                <div class="footer-logo col-md-3">
+                    <img src="image/logo.a8647160.png">
+                    <h6>support@ufinix.com</h6>
+                </div>
+                <div class="col-md-2">
+                    <h4>Categories</h4>
+                    <p>All Courses</p> 
+                    <p>Android App Courses</p>
+                        <p>iOS App Courses</p>
+                        <p>Business Development Courses</p>
+                </div>
+        
+                <div class="col-md-2">
+                    <h5>Support</h5>
+                    <p>Forum</p> 
+                        <p>FAQS</p>
+                </div>
+                <div class="col-md-2">
+                    <h5>Company</h5>
+                    <p>Legal</p> 
+                        <p>Privacy policy</p>
+                </div>
+                <div class="col-md-2">
+                    <h5>Social</h5>
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter color-blue"></i>
+                    <i class="fa fa-instagram"></i> 
+                </div> 
+                
+            </div>               
+        </div>     
+    </div>
         
  <hr>
     <div class="credit">
@@ -173,8 +296,37 @@
     </div>
    
    </div>
-    <script src="javascript/jquery.min.js"></script>
+   <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
     
+    <script src="/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+    <script src="/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0:{
+                   items: 1 
+                }
+            }
+        })
+            
+        
+    </script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".register-form"), {
+		max: 25,
+		speed: 400
+	});
+
+    </script>
 </body>
 </html>
